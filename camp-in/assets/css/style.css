@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+  --font-poppins: font-family: 'Poppins', sans-serif;
+  --font-roboto: font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #191816;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+.logo {
+  margin: 3rem 0 0 3rem;
+}
+
+.loginContent {
+  width: 65%;
+  height: 70%;
+  border-radius: 4px;
+  background: #24221f;
+  margin: 7rem auto 15rem;
+  display: grid;
+  justify-items: center;
+}
+
+.headerForm {
+  margin-top: 2rem;
+}
+
+.headerFormTitle {
+  display: flex;
+  align-items: center;
+}
+
+.headerForm h1 {
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #D4CCB6;
+  margin-left: 1rem;
+}
+
+.headerForm p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #AFB6C2;
+  margin-bottom: 2.7rem;
+}
+
+.backgroundImage {
+  overflow: hidden;
+}
+
+.formLabel {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #AFB6C2;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formInput {
+  width: 100%;
+  border: 2px solid #AFB6C2;
+  border-radius: 5px;
+  background: #24221f;
+  padding: 1rem 0;
+  padding-left: 10px;
+  color: #A9AFB9;
+  margin-bottom: 20px;
+}
+
+.formInput:hover {
+  border-color: #FFC632;
+}
+
+.iconEmail {
+  display: inline-block;
+}
+
+.checkbox input {
+  border: 1px solid #868686;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.labeCheckbox {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #A9AFB9;
+}
+
+.form button {
+  width: 100%;
+  height: 4rem;
+  background: #FFC632;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #473404;
+  margin-bottom: 1.4rem;
+}
+
+#labelRegistro {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #FFC632;
+}
+
+.footerForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerPassword {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  color: #FFC632;
+}
