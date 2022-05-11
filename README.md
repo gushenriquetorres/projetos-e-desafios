@@ -19,4 +19,4 @@ Landing Page construída com HTML e CSS para um projeto ficticio de captação d
 + [Social Tree](https://github.com/gushenriquetorres/projetos-e-desafios/tree/main/social-tree)
 Um cartão de visitas virtual também desenvolvido com HTML e CSS contendo foto e links de minhas redes sociais
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/98053145/167934154-df349e4b-d530-40ec-af22-aa837e0d4443.gif)
+   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98053145/167934154-df349e4b-d530-40ec-af22-aa837e0d4443.gif)
