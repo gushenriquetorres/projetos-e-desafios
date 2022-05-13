@@ -14,116 +14,109 @@
     />
   </head>
   <body>
-    <header id="header" class="wrapper">
-      <a href="#">
-        <img src="./assets/img/logo.svg" alt="" />
-      </a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Categorias</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-      <form action="" method="get">
-        <input type="text" name="pesquisar" placeholder="buscar" />
-        <button>
-          <img src="assets/img/lupa.svg" alt="" />
-        </button>
-      </form>
+    <header>
+      <nav id="navigation" class="wrapper">
+        <svg
+          width="162"
+          height="37"
+          viewBox="0 0 162 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M161.136 21.64V26.64H156.136V21.64H161.136Z"
+            fill="#4FFF4B"
+          />
+          <path
+            d="M19.548 1.368V6.3H12.852V26.64H6.696V6.3H0V1.368H19.548Z"
+            fill="white"
+          />
+          <path
+            d="M34.9855 6.336C37.2895 6.336 39.1375 7.104 40.5295 8.64C41.9215 10.152 42.6175 12.24 42.6175 14.904V26.64H36.4975V15.732C36.4975 14.388 36.1495 13.344 35.4535 12.6C34.7575 11.856 33.8215 11.484 32.6455 11.484C31.4695 11.484 30.5335 11.856 29.8375 12.6C29.1415 13.344 28.7935 14.388 28.7935 15.732V26.64H22.6375V0H28.7935V9.252C29.4175 8.364 30.2695 7.656 31.3495 7.128C32.4295 6.6 33.6415 6.336 34.9855 6.336Z"
+            fill="white"
+          />
+          <path
+            d="M65.8313 16.272C65.8313 16.848 65.7953 17.448 65.7233 18.072H51.7913C51.8873 19.32 52.2833 20.28 52.9793 20.952C53.6993 21.6 54.5753 21.924 55.6073 21.924C57.1433 21.924 58.2113 21.276 58.8113 19.98H65.3633C65.0273 21.3 64.4153 22.488 63.5273 23.544C62.6633 24.6 61.5713 25.428 60.2513 26.028C58.9313 26.628 57.4553 26.928 55.8233 26.928C53.8553 26.928 52.1033 26.508 50.5673 25.668C49.0313 24.828 47.8313 23.628 46.9673 22.068C46.1033 20.508 45.6713 18.684 45.6713 16.596C45.6713 14.508 46.0913 12.684 46.9313 11.124C47.7953 9.564 48.9953 8.364 50.5313 7.524C52.0673 6.684 53.8313 6.264 55.8233 6.264C57.7673 6.264 59.4953 6.672 61.0073 7.488C62.5193 8.304 63.6953 9.468 64.5353 10.98C65.3993 12.492 65.8313 14.256 65.8313 16.272ZM59.5313 14.652C59.5313 13.596 59.1713 12.756 58.4513 12.132C57.7313 11.508 56.8313 11.196 55.7513 11.196C54.7193 11.196 53.8433 11.496 53.1233 12.096C52.4273 12.696 51.9953 13.548 51.8273 14.652H59.5313Z"
+            fill="white"
+          />
+          <path
+            d="M92.0078 13.68C93.4718 13.992 94.6478 14.724 95.5358 15.876C96.4238 17.004 96.8678 18.3 96.8678 19.764C96.8678 21.876 96.1238 23.556 94.6358 24.804C93.1718 26.028 91.1198 26.64 88.4798 26.64H76.7078V1.368H88.0838C90.6518 1.368 92.6558 1.956 94.0958 3.132C95.5598 4.308 96.2918 5.904 96.2918 7.92C96.2918 9.408 95.8958 10.644 95.1038 11.628C94.3358 12.612 93.3038 13.296 92.0078 13.68ZM82.8638 11.592H86.8958C87.9038 11.592 88.6718 11.376 89.1998 10.944C89.7518 10.488 90.0278 9.828 90.0278 8.964C90.0278 8.1 89.7518 7.44 89.1998 6.984C88.6718 6.528 87.9038 6.3 86.8958 6.3H82.8638V11.592ZM87.3998 21.672C88.4318 21.672 89.2238 21.444 89.7758 20.988C90.3518 20.508 90.6398 19.824 90.6398 18.936C90.6398 18.048 90.3398 17.352 89.7398 16.848C89.1638 16.344 88.3598 16.092 87.3278 16.092H82.8638V21.672H87.3998Z"
+            fill="white"
+          />
+          <path d="M106.594 0V26.64H100.438V0H106.594Z" fill="white" />
+          <path
+            d="M120.2 26.928C118.231 26.928 116.455 26.508 114.871 25.668C113.312 24.828 112.076 23.628 111.163 22.068C110.275 20.508 109.831 18.684 109.831 16.596C109.831 14.532 110.287 12.72 111.2 11.16C112.112 9.576 113.359 8.364 114.943 7.524C116.527 6.684 118.303 6.264 120.271 6.264C122.24 6.264 124.016 6.684 125.6 7.524C127.184 8.364 128.432 9.576 129.344 11.16C130.256 12.72 130.712 14.532 130.712 16.596C130.712 18.66 130.243 20.484 129.307 22.068C128.395 23.628 127.136 24.828 125.528 25.668C123.944 26.508 122.168 26.928 120.2 26.928ZM120.2 21.6C121.376 21.6 122.371 21.168 123.188 20.304C124.027 19.44 124.448 18.204 124.448 16.596C124.448 14.988 124.04 13.752 123.224 12.888C122.432 12.024 121.448 11.592 120.271 11.592C119.072 11.592 118.076 12.024 117.284 12.888C116.492 13.728 116.095 14.964 116.095 16.596C116.095 18.204 116.479 19.44 117.247 20.304C118.039 21.168 119.023 21.6 120.2 21.6Z"
+            fill="white"
+          />
+          <path
+            d="M141.609 6.264C143.025 6.264 144.261 6.552 145.317 7.128C146.397 7.704 147.225 8.46 147.801 9.396V6.552H153.957V26.604C153.957 28.452 153.585 30.12 152.841 31.608C152.121 33.12 151.005 34.32 149.493 35.208C148.005 36.096 146.145 36.54 143.913 36.54C140.937 36.54 138.525 35.832 136.677 34.416C134.829 33.024 133.773 31.128 133.509 28.728H139.593C139.785 29.496 140.241 30.096 140.961 30.528C141.681 30.984 142.569 31.212 143.625 31.212C144.897 31.212 145.905 30.84 146.649 30.096C147.417 29.376 147.801 28.212 147.801 26.604V23.76C147.201 24.696 146.373 25.464 145.317 26.064C144.261 26.64 143.025 26.928 141.609 26.928C139.953 26.928 138.453 26.508 137.109 25.668C135.765 24.804 134.697 23.592 133.905 22.032C133.137 20.448 132.753 18.624 132.753 16.56C132.753 14.496 133.137 12.684 133.905 11.124C134.697 9.564 135.765 8.364 137.109 7.524C138.453 6.684 139.953 6.264 141.609 6.264ZM147.801 16.596C147.801 15.06 147.369 13.848 146.505 12.96C145.665 12.072 144.633 11.628 143.409 11.628C142.185 11.628 141.141 12.072 140.277 12.96C139.437 13.824 139.017 15.024 139.017 16.56C139.017 18.096 139.437 19.32 140.277 20.232C141.141 21.12 142.185 21.564 143.409 21.564C144.633 21.564 145.665 21.12 146.505 20.232C147.369 19.344 147.801 18.132 147.801 16.596Z"
+            fill="white"
+          />
+        </svg>
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 20H30"
+            stroke="#4FFF4B"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M10 12H30"
+            stroke="#4FFF4B"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 28L30 28"
+            stroke="#4FFF4B"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </nav>
     </header>
-
     <main>
       <section id="home" class="wrapper">
-        <div id="home-content">
-          <h1>
-            Veja o guia definitivo para conquistar seus objetivos como DEV em
-            2022
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-            sed tristique placerat hac.
-          </p>
-          <a href="#" id="cta">
-            Veja Mais <img src="./assets/img/seta.svg" alt="" id="seta" />
-          </a>
-        </div>
-        <div id="image-main">
-          <img src="./assets/img/image-main.png" alt="" />
-        </div>
-      </section>
-
-      <div id="brake"></div>
-
-      <section id="blog" class="wrapper">
-        <article id="main-blog">
-          <img src="./assets/img/article-img.png" alt="" />
-          <p class="subtitle">Janeiro 04, 2022</p>
-          <h2 class="title">Começando no ReactJS em 2022</h2>
-          <p class="blog-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-            sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
-            volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
-          </p>
-        </article>
-        <div id="next-blog">
-          <article>
-            <p class="subtitle">Janeiro 04, 2022</p>
-            <h2 class="title">
-              Conheça as principais técnicas para conseguir uma vaga
-              internacional em programação
-            </h2>
-            <p class="blog_content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-              sed tristique.
-            </p>
-          </article>
-          <article>
-            <p class="subtitle">Janeiro 04, 2022</p>
-            <h2 class="title">Veja a evolução do Front-end na prática</h2>
-            <p class="blog_content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-              eu in aliquet ut adipiscing neque.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="posts" class="wrapper">
-        <article class="post">
-          <img src="assets/img/img-post-1.png" alt="" />
-          <p class="subtitle"></p>
-          <h2 class="title">10 dicas para conseguir a vaga desejada</h2>
-          <p class="blog-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-            sed tristique.
-          </p>
-        </article>
-        <article class="post">
-          <img src="assets/img/img-post-2.png" alt="" />
-          <p class="subtitle"></p>
-          <h2 class="title">Deixe seu código mais semântico com essas dicas</h2>
-          <p class="blog-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-            sed tristique.
-          </p>
-        </article>
-        <article class="post">
-          <img src="assets/img/img-post-3.png" alt="" />
-          <p class="subtitle"></p>
-          <h2 class="title">Deixe seu código mais semântico com essas dicas</h2>
-          <p class="blog-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
-            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
-            sed tristique.
-          </p>
-        </article>
-        
+        <h1>
+          Veja o guia definitivo para conquistar seus objetivos como DEV em 2022
+        </h1>
+        <img src="./assets/img/image-main.svg" alt="" />
+        <p>
+          Veja mais
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12H19"
+              stroke="#4FFF4B"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 5L19 12L12 19"
+              stroke="#4FFF4B"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </p>
       </section>
     </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
